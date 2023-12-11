@@ -1,0 +1,10 @@
+.initial-rotation {
+    transform: rotate(10deg);
+    /* transition: transform 0.3s ease-in-out; */
+    transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  }
+  
+  .initial-rotation:hover {
+    transform: rotate(0deg);
+  }
+  
