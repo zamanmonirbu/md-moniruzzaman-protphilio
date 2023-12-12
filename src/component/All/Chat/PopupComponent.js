@@ -4,25 +4,16 @@ const PopupComponent = ({ onClose }) => {
   return (
     <div className="fixed inset-0 flex items-center justify-end bg-gray-500 bg-opacity-50">
       <div className="bg-white p-8 rounded-lg w-[35%] h-[80%] relative">
-        {/* Close button in the top-left */}
         <button
           className=" text-black py-2 px-4 rounded-full font-bold text-md absolute top-2 left-2"
           onClick={onClose}
         >
           Close
         </button>
-
-        {/* Emoji and Greetings */}
         <div className="text-left pt-10">
-        {/* <span role="img" aria-label="wave emoji" className="text-xl pr-4  ">
-            😎
-          </span> */}
-          <p className="text-md mt-2 bg-gray-200 p-4 rounded-xl">Hi! This is kalu miah. I'm excited to talk with you. However, I'm just in alpha stage now. Zaman will upgrade me soon. I'll be more intelligent then 😊</p>
-          
+          <p className="text-md mt-2 bg-gray-200 p-4 rounded-xl">Hi! This is kalu miah. I'm excited to talk with you. However, I'm just in alpha stage now. Zaman will upgrade me soon. I'll be more intelligent then 😊</p>         
         </div>
-
-        {/* Input field and send button */}
-        <div className="flex items-center mt-52">
+        <div className="flex items-center mt-72">
           <input
             type="text"
             placeholder="Type your message..."

@@ -14,7 +14,7 @@ const TextRotator = () => {
   }, [currentTextIndex, texts.length]);
 
   return (
-        <div className="animated-text">
+        <div className="animated-text text-white">
           {texts.map((text, index) => (
             <div
               key={index}
