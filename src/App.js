@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./component/Header/Header";
 import Footer from "./component/Footer/Footer";
 import MakeTogether from "./component/All/MakeTogether";
+import SeePost from "./component/All/SeeAllPost/SeePost";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<MakeTogether />} />
-        {/* <Route path="/" element={<All />} /> */}
+        <Route path="/view/posts" element={<SeePost/>} />
       </Routes>
       <Footer />
     </div>
