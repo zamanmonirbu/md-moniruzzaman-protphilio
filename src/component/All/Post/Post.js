@@ -1,8 +1,10 @@
 import React from "react";
 import ViewPost from "./ViewPost";
 import { Link } from "react-router-dom";
+import { postData } from "./AllNews";
 
 const Post = () => {
+  const limitedPosts = postData.slice(0, 2);
   return (
     <div className="flex flex-col items-center justify-center p-4">
       {/* First Row: Centered Content */}
@@ -16,11 +18,13 @@ const Post = () => {
       {/* Second Row: Two Post Cards */}
      
       <div className="flex mb-4">
-      <ViewPost/> 
-      <ViewPost/> 
+      {
+        limitedPosts?.map((post=><ViewPost key={post.id} post={post}/>))
+            }
+     
       </div>
 
-       <Link to='/view/posts'> <button class="bg-gray-700 hover:bg-emerald-500 text-white font-bold py-2 px-6 border border-emerald-500 rounded-3xl ">
+       <Link to='/view/posts'> <button className="bg-gray-700 hover:bg-emerald-500 text-white font-bold py-2 px-6 border border-emerald-500 rounded-3xl ">
           View More Posts
         </button></Link>
 

@@ -17,10 +17,10 @@ const Cv = () => {
             What do <span className="text-[#F97316]">I Do?</span>
           </h1>
           <div>
-            <button class="mr-4 mt-4 bg-gray-200 hover:bg-gray-600 text-gray-500 font-semibold hover:text-white py-2 px-6 border-emerald-500 ring-2 rounded-3xl hover:border-transparent ">
+            <button className="mr-4 mt-4 bg-gray-200 hover:bg-gray-600 text-gray-500 font-semibold hover:text-white py-2 px-6 border-emerald-500 ring-2 rounded-3xl hover:border-transparent ">
               Download my Resume
             </button>
-            <button class="bg-gray-700 hover:bg-emerald-500 text-white font-bold py-2 px-6 border border-emerald-500 rounded-3xl ">
+            <button className="bg-gray-700 hover:bg-emerald-500 text-white font-bold py-2 px-6 border border-emerald-500 rounded-3xl ">
               Hire Me Now
             </button>
           </div>
