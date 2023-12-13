@@ -3,7 +3,7 @@ import sent from '../../images/sent.png'
 const PopupComponent = ({ onClose }) => {
   return (
     <div className="fixed inset-0 flex items-center justify-end bg-gray-500 bg-opacity-50">
-      <div className="bg-white p-8 rounded-lg w-[35%] h-[80%] relative">
+      <div className="bg-white p-8 rounded-lg md:w-[35%]  h-full relative">
         <button
           className=" text-black py-2 px-4 rounded-full font-bold text-md absolute top-2 left-2"
           onClick={onClose}

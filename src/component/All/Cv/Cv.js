@@ -6,12 +6,8 @@ import startup from "../../images/start-up.png";
 
 const Cv = () => {
   return (
-    <div
-    // className="bg-cover bg-center p-8 mx-32"
-    // style={{ backgroundImage: `url(${backgroundImage})` }}
-    >
-      {/* First Row with Two Columns */}
-      <div className="flex mb-8">
+    <div>
+      <div className="justify-between md:flex mb-8">
         <div className="w-1/2 p-4  ">
           <h1 className="font-bold text-3xl">
             What do <span className="text-[#F97316]">I Do?</span>
@@ -41,7 +37,7 @@ const Cv = () => {
       </div>
 
       {/* Second Row with Four Columns */}
-      <div className="flex">
+      <div className="md:flex">
         <div className="w-1/4 p-4  "></div>
         <div className="w-1/4 p-4  ">
           <div className="border shadow-2xl w-52 py-16">

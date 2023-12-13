@@ -1,17 +1,17 @@
   
   .animated-text{
-    border-radius: 15px;
+    /* border-radius: 15px; */
     color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-weight: bold; */
     transform: translate(-50%,-50%);
     overflow: hidden;
   }
   
   .line{
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 12px;
+    /* text-transform: uppercase; */
+    /* text-align: center; */
+    /* font-size: 12px; */
     line-height: 40px;
   }
   

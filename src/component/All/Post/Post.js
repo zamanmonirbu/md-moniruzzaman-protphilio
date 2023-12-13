@@ -6,7 +6,7 @@ import { postData } from "./AllNews";
 const Post = () => {
   const limitedPosts = postData.slice(0, 2);
   return (
-    <div className="flex flex-col items-center justify-center p-4">
+    <div className="md:flex flex-col items-center justify-center p-4">
       {/* First Row: Centered Content */}
       <div className="mb-4">
         <h1 className="font-bold text-3xl">
@@ -17,7 +17,7 @@ const Post = () => {
 
       {/* Second Row: Two Post Cards */}
      
-      <div className="flex mb-4">
+      <div className="md:flex mb-4">
       {
         limitedPosts?.map((post=><ViewPost key={post.id} post={post}/>))
             }

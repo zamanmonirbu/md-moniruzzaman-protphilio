@@ -8,9 +8,11 @@ const CartAll = () => {
     <div
       className="bg-cover bg-center items-center justify-center"
       style={{ backgroundImage: `url(${bgImage})` }}
-    >      
+    >    
+      
       <SlideCart/>
-      <ChatMain/>       
+      <ChatMain/> 
+            
     </div>
   );
 };

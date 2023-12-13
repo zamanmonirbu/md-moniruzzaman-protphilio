@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import lineImage from "../../images/line.png";
+import bot from "../../images/robot-chatbot-generative-ai-png.png";
 import PopupComponent from "./PopupComponent";
 
 
@@ -18,13 +19,15 @@ const ChatMain = () => {
     <div className="flex items-center justify-center pb-16">
       <div className="text-center">
         <img src={lineImage} alt="myBg" className="w-64 h-20 mb-4" />
+        <img src={bot} alt="bot" className="h-28 w-auto ml-20 mb-8"/>
         <button
           className="text-white bg-gray-600 py-2 px-6 rounded font-bold text-md "
           onClick={handleButtonClick}
         >
-          Chat with bot 🤖
-         
+          Chat with bot
+
         </button>
+     
 
         {showPopup && <PopupComponent onClose={handleClosePopup} />}
       </div>
