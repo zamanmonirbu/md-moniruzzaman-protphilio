@@ -1,19 +1,44 @@
 import React from 'react';
 import TextRotator from './TextRotator';
+import CenteredComponent from './CenteredComponent ';
 
 const SlideCart = () => {
   return (
-   <div class="flex justify-center items-center h-screen">
-     <div class="relative w-[30%] h-[30%] bg-white shadow-lg">
-     <div class="absolute w-20 h-12 shadow-2xl rounded-sm -top-8 -left-12 pt-3 bg-gray-500 text-white">NodeJS</div>
+    // <CenteredComponent/>
 
-  <div class="absolute w-8 h-8 bg-black rounded-full -top-2 -right-2"></div>
-  <div class="absolute w-20 h-12  shadow-2xl rounded-sm -bottom-8 -left-12 pt-3 bg-gradient-to-r from-blue-500 to-emerald-500 text-transparent bg-clip-text">hh</div>
-  <div class="absolute w-8 h-8 bg-black rounded-full -bottom-2 -right-2"></div>
-  <span class="bg-gradient-to-r from-blue-500 to-emerald-500 text-transparent bg-clip-text">Your Text Here</span>
+    // <div className="flex flex-col items-center justify-center pt-28">
+    //   {/* Your main content goes here */}
+    //   {/* <div className="w-1/2 bg-gray-300 p-4 rounded-lg"> */}
+    //     {/* Nested div centered within the main div */}
+    //     <div className=" h-20 bg-blue-500 rounded-md flex items-center justify-center">
+    //       {/* Content inside the nested div */}
+    //       <p className="text-white font-bold">Centered Content</p>
+    //     </div>
+    //   {/* </div> */}
+    // </div>
 
-</div>
-   </div>
+    <div class="flex flex-col items-center justify-center pt-28">
+      <div class="relative w-[30%] h-72 bg-white shadow-2xl rounded-xl mt-2">
+        <div className='bg-gray-600 rounded-lg text-center m-auto w-12 h-12 mt-32'>
+          <TextRotator />
+        </div>
+        <div className='absolute flex items-center justify-center w-20 h-12 text-sm font-medium italic bg-white border rounded-lg shadow-md -top-8 -right-14'>
+          <span className='text-blue-500'>Node</span>
+          <span className="text-emerald-600">.js</span>
+        </div>
+        <div className='absolute flex items-center justify-center w-20 h-12 text-sm font-medium italic bg-white border rounded-lg shadow-md -bottom-8 -left-12'>
+          <span className='text-orange-500'>React</span>
+          <span className="text-red-400">.js</span>
+        </div>
+
+        <div className='absolute z-20 flex items-center justify-center w-12 h-12 transform border-b border-r border-gray-500 rounded-full shadow-md  -bottom-8 -right-8'>
+          <div class="flex items-center justify-center w-10 h-10 text-sm italic text-white transform rounded-full bg-blue-300" >TS</div>
+        </div>
+
+
+
+      </div>
+    </div>
     // <div className="flex justify-center items-center mb-20 pt-36">
     //   <div className="w-full flex flex-col justify-center items-center sm:w-96  text-center">
     //     <div className="w-96 rounded-2xl  bg-gray-600 p-20 relative">

@@ -1,13 +1,10 @@
   
   .animated-text{
     border-radius: 15px;
-    color: whitesmoke;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    position: absolute;
     transform: translate(-50%,-50%);
-    padding: 0 50px;
-    height: 25px;
     overflow: hidden;
   }
   
