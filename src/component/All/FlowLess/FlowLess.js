@@ -4,13 +4,14 @@ import imageUrl from '../../images/flow.jpg';
 
 const FlowLess = () => {
   return (
-    <div className="md:flex pt-28 mb-28">
-      <div className=" pl-32 pt-12 text-left max-w-2xl">
+    <div className="md:flex pt-72 mb-28">
+      <div className="text-left px-2 md:px-24 md:w-1/2 mb-16">
         <h1 className='text-4xl font-mono font-extrabold text-blue-900'>Flawless User Experience.</h1>
-       <p className='text-gray'> <span className='text-lg font-bold'>Let's keep it Purpose-driven, Heart-centered & User-focused.</span>  — I take ownership responsibilities & make the best of the situation.</p>
+        <span className='text-lg font-bold'>Let's keep it Purpose-driven, Heart-centered & User-focused.</span>
+       <span className='text-gray-500'>   — I take ownership responsibilities & make the best of the situation.</span>
       </div>
-      <div className="ml-16 mt-28 ">
-        <img src={imageUrl} alt="Images" className=" initial-rotation w-full h-auto  imageStyle" />
+      <div className="ml-20 md:ml-20">
+        <img src={imageUrl} alt="Images" className="w-96 rounded-lg initial-rotation" />
       </div>
     </div>
   );

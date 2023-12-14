@@ -5,6 +5,7 @@ import Footer from "./component/Footer/Footer";
 import MakeTogether from "./component/All/MakeTogether";
 import SeePost from "./component/All/SeeAllPost/SeePost";
 import SinglePost from "./component/All/SeeAllPost/SinglePost";
+import Contact from "./component/All/Contact/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/view/posts" element={<SeePost/>} />
         <Route path="view/post/:id" element={<SinglePost/>} />
         <Route path="/view/posts/view/post/:id" element={<SinglePost/>} />
+        <Route path="/contact" element={<Contact/>} />
       </Routes>
       <Footer />
     </div>

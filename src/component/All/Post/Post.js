@@ -6,9 +6,9 @@ import { postData } from "./AllNews";
 const Post = () => {
   const limitedPosts = postData.slice(0, 2);
   return (
-    <div className="md:flex flex-col items-center justify-center p-4">
+    <div className="md:flex flex-col items-center justify-center p-4 mt-28">
       {/* First Row: Centered Content */}
-      <div className="mb-4">
+      <div className="mb-10">
         <h1 className="font-bold text-3xl">
           From the <span className="text-[#F97316]">blog</span>
         </h1>
