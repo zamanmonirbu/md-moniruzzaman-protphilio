@@ -4,8 +4,8 @@ import imageUrl from "../../images/rocket.png";
 
 const SmoothSailing = () => {
   return (
-    <div className="md:flex pt-28 px-16 pb-10">
-      <div className="order-2 p-52 text-left max-w-2xl">
+    <div className="md:flex  px-16 pb-10">
+      <div className="order-2 text-left max-w-2xl">
         <h1 className="text-4xl font-mono font-extrabold text-red-500">
           Smooth sailing.
         </h1>
@@ -18,7 +18,7 @@ const SmoothSailing = () => {
           reality, taking the hope to the top & serve the ultimate best.
         </p>
       </div>
-      <div className="ml-16 order-1">
+      <div className="mt-28 ml-16 order-1">
         <img
           src={imageUrl}
           alt="Images"

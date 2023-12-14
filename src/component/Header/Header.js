@@ -16,7 +16,7 @@ const Header = () => {
       <Link className="mr-4" to='/contact'>Contact</Link>
       
       </div>
-      <div className="flex md:hidden items-center mr-4 text-xl">
+      <div className="flex md:hidden items-center pr-4 text-xl">
       <img src={search} className='h-8 w-8 mr-8' alt="" />
       <img src={header} className='h-8 w-8' alt="" />
       

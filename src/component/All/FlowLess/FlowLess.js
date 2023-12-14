@@ -9,8 +9,8 @@ const FlowLess = () => {
         <h1 className='text-4xl font-mono font-extrabold text-blue-900'>Flawless User Experience.</h1>
        <p className='text-gray'> <span className='text-lg font-bold'>Let's keep it Purpose-driven, Heart-centered & User-focused.</span>  — I take ownership responsibilities & make the best of the situation.</p>
       </div>
-      <div className="ml-40 mt-12 ">
-        <img src={imageUrl} alt="Images" className="w-full h-auto initial-rotation " />
+      <div className="ml-16 mt-28 ">
+        <img src={imageUrl} alt="Images" className=" initial-rotation w-full h-auto  imageStyle" />
       </div>
     </div>
   );
