@@ -52,7 +52,7 @@ const Footer = () => {
 
         <div className='pt-4'>
           <p>Designed & Developed by MONIRUZZAMAN</p>
-          <p>© 2020 - 2023 MONIRUZZAMAN, all rights reserved.</p>
+          <p>© 2020 - 2024 MONIRUZZAMAN, all rights reserved.</p>
         </div>
       </div>
     </footer>

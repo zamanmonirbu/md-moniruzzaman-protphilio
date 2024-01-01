@@ -31,12 +31,12 @@ const Header = () => {
       </div>
 
       {isPopupOpen && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="absolute top-0 right-0 bottom-0 left-0 bg-white p-8 rounded-md">
-            <button onClick={togglePopup} className="absolute top-0 right-0 m-4 text-xl">×</button>
-            <Link to='/view/posts' className="block my-4 text-xl bg-slate-400">Post</Link>
-            <Link to='/contact' className="block my-4 text-xl bg-slate-400">Contact</Link>
-            <button onClick={togglePopup} className="block my-4 text-xl bg-slate-400 mx-auto w-full">Cancel</button>
+        <div className="mb-28 inset-0 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="absolute top-0 right-0 left-0 bg-gray-50 p-8 rounded-md ">
+            <button onClick={togglePopup} className="absolute top-0 right-0 m-4 text-xl hover:bg-gray-900 hover:text-gray-100 rounded-full">×</button>
+            <Link to='/view/posts' className="block my-2 text-xl bg-slate-400 py-1 rounded-md hover:bg-gray-900 hover:text-gray-100 font-bold">Post</Link>
+            <Link to='/contact' className="block my-4 text-xl bg-slate-400 font-bold py-1 rounded-md hover:bg-gray-900 hover:text-gray-100">Contact</Link>
+            <button onClick={togglePopup} className="block my-4 text-xl font-bold bg-slate-400 mx-auto w-full py-1 rounded-md hover:bg-gray-900 hover:text-gray-100">Cancel</button>
           </div>
         </div>
       )}
