@@ -5,6 +5,7 @@ import SmoothSailing from './Smooth/SmoothSailing';
 import FlowLess from './FlowLess/FlowLess';
 import Cv from './Cv/Cv';
 import Post from './Post/Post';
+import RecentWorks from './RecentWorks/RecentWorkMainPage';
 
 const MakeTogether = () => {
     return (
@@ -14,6 +15,7 @@ const MakeTogether = () => {
             <SmoothSailing/>
             <FlowLess/>
             <Cv/>
+            <RecentWorks/>
             <Post/>
         </div>
     );
