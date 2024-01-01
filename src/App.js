@@ -8,18 +8,17 @@ import RecentWorks from "./component/RecentWorks/RecentWorks";
 import SinglePost from "./component/SeeAllPost/SinglePost";
 import AllView from "./screen/AllView";
 
-
 function App() {
   return (
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<AllView/>} />
-        <Route path="/view/posts" element={<SeePost/>} />
-        <Route path="view/post/:id" element={<SinglePost/>} />
-        <Route path="/view/posts/view/post/:id" element={<SinglePost/>} />
-        <Route path="/contact" element={<Contact/>} />
-        <Route path="/view/projects" element={<RecentWorks/>} />
+        <Route path="/" element={<AllView />} />
+        <Route path="/view/posts" element={<SeePost />} />
+        <Route path="view/post/:id" element={<SinglePost />} />
+        <Route path="/view/posts/view/post/:id" element={<SinglePost />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/view/projects" element={<RecentWorks />} />
       </Routes>
       <Footer />
     </div>

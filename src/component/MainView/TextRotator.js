@@ -1,7 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const TextRotator = () => {
-  const texts = ['Full Stack','ON MERN','React', 'Node', 'Express', 'MongoDB'];
+  const texts = [
+    "Full Stack",
+    "ON MERN",
+    "React",
+    "Node",
+    "Express",
+    "MongoDB",
+  ];
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
 
   useEffect(() => {

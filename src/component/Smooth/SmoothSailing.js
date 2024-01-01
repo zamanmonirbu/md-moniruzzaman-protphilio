@@ -1,7 +1,6 @@
 import React from "react";
 import imageUrl from "../images/rocket.png";
 
-
 const SmoothSailing = () => {
   return (
     <div className="ml-12 md:flex mt-72">
@@ -10,13 +9,13 @@ const SmoothSailing = () => {
           Smooth sailing.
         </h1>
         <div className="mr-12">
-        <span className="text-xl font-bold text-gray-800">
+          <span className="text-xl font-bold text-gray-800">
             Proven technologies, modern methodologies & years of experiences
           </span>
-        <span className="text-gray-500">
-          — All boils down to the confidence of making the imagination a
-          reality, taking the hope to the top & serve the ultimate best.
-        </span>
+          <span className="text-gray-500">
+            — All boils down to the confidence of making the imagination a
+            reality, taking the hope to the top & serve the ultimate best.
+          </span>
         </div>
       </div>
       <div className="sm:ml-16 order-1 md:px-24 md:w-1/2 ">

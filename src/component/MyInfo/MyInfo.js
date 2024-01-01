@@ -3,7 +3,7 @@ import frontEnd from "../images/ux.png";
 import backEnd from "../images/backend.png";
 import task from "../images/task.png";
 import startup from "../images/start-up.png";
-import resume from '../images/MONIRUZZAMAN_RESUME.pdf'
+import resume from "../images/MONIRUZZAMAN_RESUME.pdf";
 
 const Cv = () => {
   return (
@@ -14,15 +14,19 @@ const Cv = () => {
             What do <span className="text-[#F97316]">I Do?</span>
           </h1>
           <div>
-            <a href={resume}  target="_blank" rel="noreferrer">
-            <button className="mr-4 mt-4 bg-gray-200 hover:bg-gray-600 text-gray-500 font-semibold hover:text-white py-2 px-6 border-emerald-500 ring-2 rounded-3xl hover:border-transparent mb-8">
-              Download my Resume
-            </button>
+            <a href={resume} target="_blank" rel="noreferrer">
+              <button className="mr-4 mt-4 bg-gray-200 hover:bg-gray-600 text-gray-500 font-semibold hover:text-white py-2 px-6 border-emerald-500 ring-2 rounded-3xl hover:border-transparent mb-8">
+                Download my Resume
+              </button>
             </a>
-            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWtDsVFpkmGrRpTHZDPVJnRJNDHRXnMScXcLvcdJrkpSxsQklwRCHvcCthMDKBpphMPcdcTJb"  target="_blank" rel="noreferrer" >
-            <button className="bg-gray-700 hover:bg-emerald-500 text-white font-bold py-2 px-6 border border-emerald-500 rounded-3xl ">
-              Hire Me Now
-            </button>
+            <a
+              href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWtDsVFpkmGrRpTHZDPVJnRJNDHRXnMScXcLvcdJrkpSxsQklwRCHvcCthMDKBpphMPcdcTJb"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="bg-gray-700 hover:bg-emerald-500 text-white font-bold py-2 px-6 border border-emerald-500 rounded-3xl ">
+                Hire Me Now
+              </button>
             </a>
           </div>
         </div>
