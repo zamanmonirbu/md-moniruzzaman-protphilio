@@ -1,4 +1,4 @@
-# Personal Portfolio Project
+# Personal Portfolio of MONIRUZZAMAN
 
 This project serves as my personal portfolio, showcasing my work and providing information about myself.
 
@@ -18,7 +18,7 @@ This project serves as my personal portfolio, showcasing my work and providing i
 
 ## Live Demo
 
-Visit the live portfolio: [moniruzzamanbu.netlify.app](https://moniruzzamanbu.netlify.app/)
+Visit the live portfolio: [Live server](https://moniruzzamanbu.netlify.app/)
 
 ## Social Links
 
