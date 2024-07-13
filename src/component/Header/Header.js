@@ -26,11 +26,17 @@ const Header = () => {
         </Link>
       </div>
       <div className="hidden md:flex items-center md:mr-32 text-xl">
+        <Link className="mr-4" to="/">
+          Home
+        </Link>
         <Link className="mr-4" to="/view/posts">
           Post
         </Link>
         <Link className="mr-4" to="/contact">
           Contact
+        </Link>
+        <Link className="mr-4" to="/about-me">
+          About Me 
         </Link>
       </div>
       <div className="flex md:hidden items-center pr-4 text-xl">

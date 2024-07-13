@@ -20,7 +20,7 @@ const Cv = () => {
               </button>
             </a>
             <a
-              href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWtDsVFpkmGrRpTHZDPVJnRJNDHRXnMScXcLvcdJrkpSxsQklwRCHvcCthMDKBpphMPcdcTJb"
+              href="mailto:monir.cse6.bu@gmail.com"
               target="_blank"
               rel="noreferrer"
             >

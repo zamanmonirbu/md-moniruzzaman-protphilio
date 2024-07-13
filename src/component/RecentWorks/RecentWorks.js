@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import mobile from "../images/mobile service center.PNG";
-import happy from "../images/happy.PNG";
 import football from "../images/football.PNG";
 import panda from "../images/panda.PNG";
 
@@ -50,43 +49,7 @@ const RecentWorks = () => {
                 </div>
               </Link>
             </div>
-            <div class="relative group h-52 flex   flex-col rounded-xl bg-[#B3E0D2] bg-clip-border text-gray-700 shadow-md">
-              <Link to="#happy" class="block">
-                <div class="h-50">
-                  <div class="absolute -top-5 lg:top-[-10%] left-[5%] z-40  group-hover:top-[-55%] group-hover:opacity-[0.9]   duration-300 w-[90%] h-52 bg-[#f54040] rounded-xl justify-items-center align-middle">
-                    <img
-                      src={happy}
-                      class="w-72 h-44  mt-4 m-auto"
-                      alt="Automotive"
-                      title="Automotive"
-                      loading="lazy"
-                      width="200"
-                      height="200"
-                    />
-                  </div>
-                </div>
-                <div class="p-6 mt-20  z-40 w-full   ">
-                  <Link
-                    to="#happy"
-                    class="  inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased hover:text-red-500"
-                  >
-                    Live site
-                  </Link>
-                  <Link
-                    to="https://github.com/zamanmonirbu/happy"
-                    class=" inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased hover:text-red-500"
-                  >
-                    Frontend code
-                  </Link>
-                  <Link
-                    to="https://github.com/zamanmonirbu/happybackend"
-                    class=" inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased hover:text-red-500"
-                  >
-                    Backend code
-                  </Link>
-                </div>
-              </Link>
-            </div>
+         
 
             <div class="relative group h-52 flex   flex-col rounded-xl bg-[#B3E0D2] bg-clip-border text-gray-700 shadow-md">
               <Link

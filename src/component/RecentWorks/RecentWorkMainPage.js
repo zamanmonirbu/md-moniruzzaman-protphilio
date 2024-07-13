@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import khaboki from "../images/khaboki.PNG";
+import cool from "../images/cool-media.PNG";
 import rescue from "../images/rescue.PNG";
 import niyejao from "../images/niye jao.PNG";
 
@@ -18,11 +18,11 @@ const RecentWorks = () => {
         <div class="container mx-auto px-[12px] md:px-24 xl:px-12 max-w-[1300px] ">
           <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-6 gap-y-28 lg:gap-y-16">
             <div class="relative group h-52 flex   flex-col rounded-xl bg-[#F97316] bg-clip-border text-gray-700 shadow-md mt-16">
-              <Link to="https://khabo-ki.netlify.app" class="block">
+              <Link to="https://cool-media-client.vercel.app/home" class="block">
                 <div class="h-50">
-                  <div class="absolute -top-5 lg:top-[-10%] left-[5%] z-40  group-hover:top-[-50%]  group-hover:opacity-[0.9]   duration-300 w-[90%] h-52 bg-gray-700 rounded-xl justify-items-center align-middle">
+                  <div class="absolute -top-5 lg:top-[-10%] left-[5%] z-40  group-hover:top-[-60%]  group-hover:opacity-[0.9]   duration-300 w-[90%] h-52 bg-gray-700 rounded-xl justify-items-center align-middle">
                     <img
-                      src={khaboki}
+                      src={cool}
                       class="w-72 h-44  mt-4 m-auto"
                       alt="Automotive"
                       title="Automotive"
@@ -32,24 +32,30 @@ const RecentWorks = () => {
                     />
                   </div>
                 </div>
-                <div class="p-6 mt-20  z-40 w-full   ">
+                <div class="p-6 mt-14  z-40 w-full   ">
                   <Link
-                    to="https://khabo-ki.netlify.app/"
+                    to="https://cool-media-client.vercel.app/home"
                     class="  inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased hover:text-red-500"
                   >
                     Live site
                   </Link>
                   <Link
-                    to="https://github.com/zamanmonirbu/khabo-ki"
+                    to="https://github.com/zamanmonirbu/cool-media-client"
                     class=" inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased hover:text-red-500"
                   >
                     Frontend code
                   </Link>
                   <Link
-                    to="https://github.com/zamanmonirbu/khabo-ki-backend"
-                    class="mb-2 inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased hover:text-red-500"
+                    to="https://github.com/zamanmonirbu/cool-media-backend"
+                    class=" inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased hover:text-red-500"
                   >
                     Backend code
+                  </Link>
+                  <Link
+                    to="https://github.com/zamanmonirbu/cool-media-socket"
+                    class="mb-2 inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased hover:text-red-500"
+                  >
+                    Socket code
                   </Link>
                 </div>
               </Link>

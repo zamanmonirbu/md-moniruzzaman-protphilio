@@ -7,6 +7,7 @@ import Contact from "./component/Contact/Contact";
 import RecentWorks from "./component/RecentWorks/RecentWorks";
 import SinglePost from "./component/SeeAllPost/SinglePost";
 import AllView from "./screen/AllView";
+import AboutMe from "./component/AboutMe/AboutMe";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/view/posts/view/post/:id" element={<SinglePost />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/view/projects" element={<RecentWorks />} />
+        <Route path="/about-me" element={<AboutMe />} />
       </Routes>
       <Footer />
     </div>
