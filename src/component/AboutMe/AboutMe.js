@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../images/aboutMe.jpg"; // Update the path to your profile picture
+import profilePic from "../images/aboutMe.jpg"; 
 import resume from "../images/MONIRUZZAMAN_RESUME.pdf";
 
 const AboutMe = () => {

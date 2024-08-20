@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import cool from "../images/cool-media.PNG";
 import rescue from "../images/rescue.PNG";
-import niyejao from "../images/niye jao.PNG";
+import pizza from "../images/pizza-house.PNG";
 
 const RecentWorks = () => {
   return (
@@ -61,7 +61,7 @@ const RecentWorks = () => {
               </Link>
             </div>
             <div class="relative group h-52 flex   flex-col rounded-xl bg-[#B3E0D2] bg-clip-border text-gray-700 shadow-md mt-28">
-              <Link to="https://rescuehospital.netlify.app/" class="block">
+              <Link to="https://rescue-hospital-client.vercel.app" class="block">
                 <div class="h-50">
                   <div class="absolute -top-5 lg:top-[-10%] left-[5%] z-40  group-hover:top-[-55%] group-hover:opacity-[0.9]   duration-300 w-[90%] h-52 bg-[#104374] rounded-xl justify-items-center align-middle">
                     <img
@@ -77,19 +77,19 @@ const RecentWorks = () => {
                 </div>
                 <div class="p-6 mt-20  z-40 w-full   ">
                   <Link
-                    to="https://rescuehospital.netlify.app/"
+                    to="https://rescue-hospital-client.vercel.app/"
                     class="  inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased hover:text-red-500"
                   >
                     Live site
                   </Link>
                   <Link
-                    to="https://github.com/zamanmonirbu/hospital-client"
+                    to="https://github.com/zamanmonirbu/rescue-hospital-client"
                     class=" inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased hover:text-red-500"
                   >
                     Frontend code
                   </Link>
                   <Link
-                    to="https://github.com/zamanmonirbu/hospital-backend"
+                    to="https://github.com/zamanmonirbu/rescue-hospital-backend"
                     class="mb-2 inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased hover:text-red-500"
                   >
                     Backend code
@@ -98,11 +98,11 @@ const RecentWorks = () => {
               </Link>
             </div>
             <div class="relative group h-52 flex   flex-col rounded-xl bg-[#0A0A0A] bg-clip-border text-gray-700 shadow-md mt-40">
-              <Link to="https://ridesharebd.netlify.app/" class="block">
+              <Link to="https://pizza-house-client.vercel.app" class="block">
                 <div class="h-50">
                   <div class="absolute -top-5 lg:top-[-10%] left-[5%] z-40  group-hover:top-[-55%] group-hover:opacity-[0.9]   duration-300 w-[90%] h-52 bg-[#FF9C00] rounded-xl justify-items-center align-middle">
                     <img
-                      src={niyejao}
+                      src={pizza}
                       class="w-72 h-44  mt-4 m-auto"
                       alt="Automotive"
                       title="Automotive"
@@ -114,19 +114,19 @@ const RecentWorks = () => {
                 </div>
                 <div class="p-6 mt-20  z-40 w-full   ">
                   <Link
-                    to="https://ridesharebd.netlify.app/"
+                    to="https://pizza-house-client.vercel.app"
                     class="  inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased hover:text-red-500"
                   >
                     Live site
                   </Link>
                   <Link
-                    to="https://github.com/zamanmonirbu/ride-share-with-authentication"
+                    to="https://github.com/zamanmonirbu/pizza-house-client"
                     class=" inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased hover:text-red-500"
                   >
                     Frontend code
                   </Link>
                   <Link
-                    to="https://github.com/zamanmonirbu/rideshare-backend"
+                    to="https://github.com/zamanmonirbu/pizza-house-backend"
                     class="mb-2 inline-block text-tg text-center w-full  text-xl  font-sans  font-semibold leading-snug tracking-normal   antialiased hover:text-red-500"
                   >
                     Backend code
