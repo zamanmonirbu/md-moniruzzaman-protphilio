@@ -9,7 +9,7 @@ import x from "../images/twitter-sign.png";
 const Footer = () => {
   return (
     <footer className="flex flex-col md:flex-row bg-white">
-      <div className="container px-4 py-6 ">
+      <div className="container px-4 py-6">
         <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700" />
 
         <div className="flex flex-col md:flex-row items-center justify-between">
@@ -29,50 +29,48 @@ const Footer = () => {
           </div>
 
           <div className="flex -mx-2 mb-4 md:mb-0">
-            <Link
-              to="https://github.com/zamanmonirbu"
-              className="mx-2"
-              aria-label="Reddit"
-            >
-              <img
-                src={github}
-                alt="git"
-                className="h-8 w-8 hover:h-10 hover:w-10"
-              />
-            </Link>
-            <Link
-              to="https://www.linkedin.com/in/mdmoniruzzamanbu/"
-              className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
-              aria-label="Facebook"
-            >
-              <img
-                src={linkedin}
-                alt="git"
-                className="h-8 w-8 hover:h-10 hover:w-10"
-              />
-            </Link>
-            <Link
-              to="https://www.facebook.com/zamanmonirbu/"
-              className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
-              aria-label="Github"
-            >
-              <img
-                src={facebook}
-                alt="git"
-                className="h-8 w-8 hover:h-10 hover:w-10"
-              />
-            </Link>
-            <Link
-              to="https://twitter.com/zamanmonirbu"
-              className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
-              aria-label="Github"
-            >
-              <img
-                src={x}
-                alt="git"
-                className="h-8 w-8 hover:h-10 hover:w-10"
-              />
-            </Link>
+            <div className="inline-flex mx-2">
+              <Link to="https://github.com/zamanmonirbu" aria-label="Github">
+                <img
+                  src={github}
+                  alt="git"
+                  className="h-8 w-8 transition-transform duration-300 hover:scale-125"
+                />
+              </Link>
+            </div>
+            <div className="inline-flex mx-2">
+              <Link
+                to="https://www.linkedin.com/in/mdmoniruzzamanbu/"
+                aria-label="LinkedIn"
+              >
+                <img
+                  src={linkedin}
+                  alt="linkedin"
+                  className="h-8 w-8 transition-transform duration-300 hover:scale-125"
+                />
+              </Link>
+            </div>
+            <div className="inline-flex mx-2">
+              <Link
+                to="https://www.facebook.com/zamanmonirbu/"
+                aria-label="Facebook"
+              >
+                <img
+                  src={facebook}
+                  alt="facebook"
+                  className="h-8 w-8 transition-transform duration-300 hover:scale-125"
+                />
+              </Link>
+            </div>
+            <div className="inline-flex mx-2">
+              <Link to="https://twitter.com/zamanmonirbu" aria-label="Twitter">
+                <img
+                  src={x}
+                  alt="twitter"
+                  className="h-8 w-8 transition-transform duration-300 hover:scale-125"
+                />
+              </Link>
+            </div>
           </div>
 
           <div className="flex flex-col md:flex-row">
@@ -105,7 +103,7 @@ const Footer = () => {
 
             <a
               className="p-2 font-bold hover:bg-slate-400 hover:rounded-md"
-              href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWtDsVFpkmGrRpTHZDPVJnRJNDHRXnMScXcLvcdJrkpSxsQklwRCHvcCthMDKBpphMPcdcTJb"
+              href="mailto:monir.cse6.bu@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -113,7 +111,7 @@ const Footer = () => {
             </a>
             <a
               className="p-2 font-bold hover:bg-slate-400 hover:rounded-md"
-              href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWtDsVFpkmGrRpTHZDPVJnRJNDHRXnMScXcLvcdJrkpSxsQklwRCHvcCthMDKBpphMPcdcTJb"
+              href="mailto:monir.cse6.bu@gmail.com"
               target="_blank"
               rel="noreferrer"
             >

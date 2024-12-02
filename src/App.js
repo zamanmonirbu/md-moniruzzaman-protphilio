@@ -8,6 +8,7 @@ import RecentWorks from "./component/RecentWorks/RecentWorks";
 import SinglePost from "./component/SeeAllPost/SinglePost";
 import AllView from "./screen/AllView";
 import AboutMe from "./component/AboutMe/AboutMe";
+import AllProjects from "./component/AllProjects/AllProjects";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<AllView />} />
+        <Route path="/view/all/projects" element={< AllProjects/>} />
         <Route path="/view/posts" element={<SeePost />} />
         <Route path="view/post/:id" element={<SinglePost />} />
         <Route path="/view/posts/view/post/:id" element={<SinglePost />} />
